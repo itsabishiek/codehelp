@@ -1,0 +1,22 @@
+.glass-box-container {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../../img/glass-bg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.glass-box {
+  width: 300px;
+  height: 300px;
+  margin: 25px;
+}
+
+@media (max-width: 450px) {
+  .glass-box {
+    width: 250px;
+    height: 250px;
+  }
+}
